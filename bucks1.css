@@ -1,0 +1,145 @@
+.bango{
+	position: fixed;
+	left: 0px;
+	top: 10px;
+	height: 90px;
+	width: 90px;
+	
+}
+.team {
+	height: 60px;
+	width: 60px;
+}
+
+.team2 { 
+	height: 30px;
+	width: 30px;
+}
+
+ul {
+	list-style-type: none;
+    margin: 40px 0 0 40px;
+    padding: 0 0 0 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.first {
+	margin-left: 26px;
+}
+
+li a:hover:not(.active1) {
+    background-color: #111;
+}
+
+.active1 {
+    background-color: #4CAF50;
+}
+.container{
+	display:flex;
+}
+
+aside{
+	flex: 1 1 20%;
+	background-color: black;
+	margin: 15px 10px 10px 10px;
+	padding: 10px;
+	color:white;
+	/*border-radius: 10px;*/
+}
+asideschedule{
+	flex: 1 1 7%;
+	background-color: black;
+	margin: 15px 10px 10px 10px;
+	padding: 10px;
+	color:white;
+	/*border-radius: 10px;*/
+}
+article{
+	flex:1 1 50%;
+	background-color: #e6e6e6;
+	margin: 15px 10px 10px 10px;
+	padding: 10px;
+	/*border-radius: 10px;*/
+}
+/*Adds green to win*/
+td w { 
+	color: green;
+}
+/*Adds red to loss*/
+td l {
+	color: red;
+}
+#grad1 {
+  height: 600px;
+  background-color: #00471B; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#00471B, #EEE1C6, #0077C0, #000000); /* Standard syntax (must be last) */
+}
+#center {
+text-align: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#white {
+	background-color: white;
+	color: black;
+}
+
+
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+
+
+
+
+
+
